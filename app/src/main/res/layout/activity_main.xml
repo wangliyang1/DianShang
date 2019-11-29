@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:id="@+id/pager"></androidx.viewpager.widget.ViewPager>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:id="@+id/group">
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/bt1"
+            android:layout_weight="1"
+            android:text="按钮一"
+            android:gravity="center"
+            android:button="@null"></RadioButton>
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/bt2"
+            android:layout_weight="1"
+            android:text="按钮二"
+            android:gravity="center"
+            android:button="@null"></RadioButton>
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/bt3"
+            android:layout_weight="1"
+            android:text="按钮三"
+            android:gravity="center"
+            android:button="@null"></RadioButton>
+    </RadioGroup>
+</LinearLayout>
